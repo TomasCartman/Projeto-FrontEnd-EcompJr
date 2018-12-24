@@ -9,23 +9,30 @@ h1{
 }
 
 section{
-	margin-top: 768px;
 	padding: 8rem 0;
 }
 
-/* Desfocar imagem ou substituir por outra melhor
-   A imagem vai ter que ser no minimo um fullhd */
-#page-top{
-	background: url("../../Vendor/img/agroimg.jpg") no-repeat 0 0px;
-	margin-bottom: 768px;
+.parallax-window {
+	min-height: 800px;
+	background: transparent;
 }
 
 #mainNav{
 }
 
-.nav-link{
+.parallaxContainer{
+	margin: 0 auto;
+	padding: 25px;
+	/*background: #f9f9f9;*/
+}
+
+.navbar-light .nav-item .nav-link{
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
 	/*font-family: Esphimere;*/
+}
+
+.navbar-light .nav-item .nav-link:hover{
+	color: black;
 }
