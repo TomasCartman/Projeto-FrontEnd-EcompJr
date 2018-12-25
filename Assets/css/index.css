@@ -37,6 +37,8 @@ section{
 
 .sectionItem{
 	padding: 15px;
+	padding-bottom: 50px;
+	border: white solid 1px;
 }
 
 .navbar-light .nav-item .nav-link{
