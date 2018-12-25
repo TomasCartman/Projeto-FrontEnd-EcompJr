@@ -5,7 +5,17 @@ body{
 }
 
 h1{
-	color: #0001e5;
+	color: #fff;
+}
+
+p, h1, h3{
+	text-align: center;
+}
+
+.about{
+	text-align: center;
+	padding: 10%;
+	padding-top: 1%;
 }
 
 section{
