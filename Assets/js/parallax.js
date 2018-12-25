@@ -1,4 +1,4 @@
-// Y axis scroll speed
+// It will be deleted
 let velocity = 0.5;
 
 function update(){

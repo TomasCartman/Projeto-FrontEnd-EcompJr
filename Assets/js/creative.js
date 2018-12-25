@@ -1,19 +1,20 @@
 $(document).ready(function(){
-    $(window).bind('scroll', update)
+    $(window).bind('scroll', checkHeight)
 
 })
 
-function update(){
+function checkHeight(){
     let height = $(window).scrollTop()
-    height > 80 ? showNavbarBackground():hideNavbarBackground()
+    height > 240 ? showNavbarBackground():hideNavbarBackground()
 }
 
+// Change colors in future and maybe change to an animation in css
 function showNavbarBackground(){
     $('#mainNav').removeClass('bg-transparent')
     $('#mainNav').addClass('bg-white')
     $('.navbar-light .nav-item .nav-link').css('color', 'rgba(0,0,0,.5)')
     $('.navbar-light .nav-item .nav-link').hover(function(e){
-        $(this).css('color', e.type === 'mouseenter'? 'black': 'rgba(0,0,0,.5)')
+        $(this).css('color', e.type === 'mouseenter'? '#2C3590': 'rgba(0,0,0,.5)')
     })
 }
 
@@ -22,6 +23,6 @@ function hideNavbarBackground(){
     $('#mainNav').addClass('bg-transparent')
     $('.navbar-light .nav-item .nav-link').css('color', 'white')
     $('.navbar-light .nav-item .nav-link').hover(function(e){
-        $(this).css('color', e.type === 'mouseenter'? 'black': 'white')
+        $(this).css('color', e.type === 'mouseenter'? '#2C3590': 'white')
     })
 }

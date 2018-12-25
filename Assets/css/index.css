@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-	color: #18ce76;
+	color: #0001e5;
 }
 
 section{
@@ -15,24 +15,27 @@ section{
 .parallax-window {
 	min-height: 800px;
 	background: transparent;
+	padding-top: 300px;
 }
 
-#mainNav{
+.sectionBackground{
+	background-color: #98C739;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #fff;
 }
 
-.parallaxContainer{
-	margin: 0 auto;
-	padding: 25px;
-	/*background: #f9f9f9;*/
+.sectionItem{
+	padding: 15px;
 }
 
 .navbar-light .nav-item .nav-link{
 	font-size: 20px;
 	font-weight: bold;
 	color: white;
-	/*font-family: Esphimere;*/
 }
 
 .navbar-light .nav-item .nav-link:hover{
 	color: black;
+	font-weight: bold;
 }
