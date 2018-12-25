@@ -16,10 +16,11 @@ p, h1, h3{
 	text-align: center;
 	padding: 10%;
 	padding-top: 1%;
+	font-size: 18px;
 }
 
 section{
-	padding: 8rem 0;
+	padding-top: 7rem;
 }
 
 .parallax-window {
@@ -29,7 +30,8 @@ section{
 }
 
 .sectionBackground{
-	background-color: #98C739;
+	/*98c739*/
+	background-color: #6AAF08;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: #fff;
@@ -55,4 +57,9 @@ section{
 #instragram{
 	font-size: 1px;
 	size: 50px;
+}
+
+#footer img{
+	height: 150px;
+	width: 150px;
 }
