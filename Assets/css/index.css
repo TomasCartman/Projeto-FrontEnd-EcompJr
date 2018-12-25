@@ -29,7 +29,8 @@ section{
 }
 
 .sectionBackground{
-	background-color: #98C739;
+	/*background-color: #98C739;*/
+	background-color: #6AAF08;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: #fff;
@@ -53,6 +54,5 @@ section{
 }
 
 #instragram{
-	font-size: 1px;
-	size: 50px;
+	height: 30px;
 }
