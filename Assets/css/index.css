@@ -20,7 +20,7 @@ p, h1, h3{
 }
 
 section{
-	padding-top: 7rem;
+	padding: 7rem;
 }
 
 .parallax-window {
@@ -32,8 +32,6 @@ section{
 .sectionBackground{
 	/*98c739*/
 	background-color: #6AAF08;
-	padding-top: 40px;
-	padding-bottom: 40px;
 	color: #fff;
 }
 
@@ -69,5 +67,6 @@ section{
 }
 
 #footer{
-	text-align: center;	
+	text-align: center;
+    padding: 3rem;
 }

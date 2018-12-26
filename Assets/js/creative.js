@@ -6,6 +6,8 @@ $(document).ready(function(){
 function checkHeight(){
     let height = $(window).scrollTop()
     height > 240 ? showNavbarBackground():hideNavbarBackground()
+    console.log(height)
+    isVisible($('#about'))
 }
 
 // Change colors in future and maybe change to an animation in css
@@ -25,4 +27,16 @@ function hideNavbarBackground(){
     $('.navbar-light .nav-item .nav-link').hover(function(e){
         $(this).css('color', e.type === 'mouseenter'? '#2C3590': 'white')
     })
+}
+
+function isVisible($obj, func) {
+    let top = $(window).scrollTop();
+    let bottom = top + $(window).height();
+    let objTop = $obj.offset().top;
+    let objBottom = objTop + $obj.height();
+
+    if(objTop < bottom && objBottom > top) {
+        console.log('Visible')
+        //func()
+    }
 }
