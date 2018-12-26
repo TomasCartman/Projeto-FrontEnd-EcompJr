@@ -60,6 +60,15 @@ section{
 }
 
 #footer img{
-	height: 150px;
-	width: 150px;
+	height: 100px;
+	width: 100px;
+}
+
+#footer a{
+	color: white;
+}
+
+#footer a:hover{
+	color: black;
+	text-decoration: none;
 }
