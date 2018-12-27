@@ -67,6 +67,19 @@ section{
 }
 
 #footer{
+	font-family: cursive;
 	text-align: center;
     padding: 3rem;
+}
+
+#team{
+	font-size: 20px;
+}
+
+.rowLight{
+	background-color: #d4fa9e;
+}
+
+.rowGreen{
+	background-color: #fff;
 }
