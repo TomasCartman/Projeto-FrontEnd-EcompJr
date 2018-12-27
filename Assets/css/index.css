@@ -22,38 +22,32 @@ p, h1, h3{
 	padding-top: 1%;
 	font-size: 18px;
 	position: relative;
+}
+
+@keyframes content {
+	0%{left: -1000px; opacity: 0;}
+	100%{left: 0px; opacity: 1;}
+}
+
+.contentAnimation{
 	animation-name: content;
 	animation-duration: 2.5s;
 	animation-fill-mode: forwards;
 }
 
-@keyframes content {
-	0%{
-		left: -1000px;
-		opacity: 0;
-	}
-	100%{
-		left: 0px;
-		opacity: 1;
-	}
-}
-
 #about-title{
 	position: relative;
+}
+
+.titleAnimation{
 	animation-name: title;
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
 }
 
 @keyframes title {
-	0%{
-		top: -100px;
-		opacity: 0;
-	}
-	100%{
-		top: 0px;
-		opacity: 1;
-	}
+	0%{top: -100px; opacity: 0;}
+	100%{top: 0px; opacity: 1;}
 }
 
 section{
@@ -115,14 +109,17 @@ section{
 #team .card{
 	text-align: center;
 	font-size: 20px;
-	animation-name: appear;
-	animation-duration: 3s;
-	animation-fill-mode: forwards;
 }
 
 @keyframes appear {
 	0%{opacity: 0;}
 	100%{opacity: 1;}
+}
+
+.appearAnimation{
+	animation-name: appear;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
 }
 
 .rowLight{
@@ -131,8 +128,4 @@ section{
 
 .rowGreen{
 	background-color: #fff;
-}
-
-@keyframes textAnimation{
-
 }

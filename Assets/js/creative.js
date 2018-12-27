@@ -6,11 +6,10 @@ $(document).ready(function(){
 function checkHeight(){
     let height = $(window).scrollTop()
     height > 240 ? showNavbarBackground():hideNavbarBackground()
-    console.log(height)
-    isVisible($('#about'))
+    isVisible($('#team'), teamAnimation)
+    isVisible($('#about'), aboutAnimation)
 }
 
-// Change colors in future and maybe change to an animation in css
 function showNavbarBackground(){
     $('#mainNav').removeClass('bg-transparent')
     $('#mainNav').addClass('bg-white')
@@ -37,6 +36,15 @@ function isVisible($obj, func) {
 
     if(objTop < bottom && objBottom > top) {
         console.log('Visible')
-        //func()
+        func()
     }
+}
+
+function teamAnimation(){
+    $('#team').addClass('appearAnimation')
+}
+
+function aboutAnimation() {
+    $('#about-content').addClass('contentAnimation')
+    $('#about-title').addClass('titleAnimation')
 }
