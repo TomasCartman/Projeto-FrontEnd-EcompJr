@@ -51,7 +51,7 @@ section{
 }
 
 .navbar-light .nav-item .nav-link:hover{
-	color: black;
+	color: #2C3590;
 	font-weight: bold;
 }
 
@@ -75,7 +75,8 @@ section{
     padding: 3rem;
 }
 
-#team{
+#team .card{
+	text-align: center;
 	font-size: 20px;
 }
 
