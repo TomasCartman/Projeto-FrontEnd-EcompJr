@@ -20,7 +20,8 @@ p, h1, h3{
 }
 
 section{
-	padding: 7rem;
+	padding-top: 8rem;
+	padding-bottom: 6rem;
 }
 
 .parallax-window {
@@ -37,8 +38,10 @@ section{
 
 .sectionItem{
 	padding: 15px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	border: white solid 1px;
+	background-color: #98C73D;
+	color: #000;
 }
 
 .navbar-light .nav-item .nav-link{
@@ -82,4 +85,8 @@ section{
 
 .rowGreen{
 	background-color: #fff;
+}
+
+@keyframes textAnimation{
+
 }
